@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AutoTube — automated educational Shorts for the Curious Minute channel</title>
+<meta name="description" content="AutoTube is a private tool that produces and uploads fact-checked educational YouTube Shorts to its owner's own YouTube channel.">
+<style>body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#1d1d1f}h1{font-size:30px;margin-bottom:4px}h2{margin-top:28px;font-size:20px}a{color:#0b57d0}.muted{color:#666;font-size:14px}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:14px;font-size:14px;color:#666}code{background:#f2f2f2;padding:1px 5px;border-radius:4px}</style></head>
+<body>
+<h1>AutoTube</h1>
+<p class="muted">A private, single-user publishing tool for the owner's own YouTube channel</p>
+
+<h2>What AutoTube does</h2>
+<p>AutoTube is a personal automation tool run by the owner of the <strong>Curious Minute</strong> YouTube channel.
+Each day it:</p>
+<ul>
+  <li>looks at publicly available trending topics (Google Trends, Wikipedia, and similar public sources);</li>
+  <li>writes a short educational script grounded in a cited public source (Wikipedia) and fact-checks it;</li>
+  <li>assembles a vertical video from openly licensed images, a synthetic narrator voice and original music;</li>
+  <li>uploads the video to the owner's <em>own</em> YouTube channel and schedules its publication;</li>
+  <li>reads that channel's own view and audience-retention statistics to decide which topics and formats to make next.</li>
+</ul>
+
+<h2>How it uses Google data</h2>
+<p>AutoTube uses the YouTube Data API and YouTube Analytics API, authorized only by the channel owner, with these permissions:</p>
+<ul>
+  <li><code>youtube.upload</code>: to upload videos to the owner's channel;</li>
+  <li><code>youtube.readonly</code>: to read the owner's channel and video details (for example, view counts);</li>
+  <li><code>yt-analytics.readonly</code>: to read the owner's channel analytics (for example, average view percentage).</li>
+</ul>
+<p>AutoTube is not offered to the public, has no user accounts, and never accesses anyone else's Google or YouTube data.</p>
+
+<h2>Policies</h2>
+<p><a href="https://jstrick9.github.io/privacy.html">Privacy Policy</a> · <a href="https://jstrick9.github.io/terms.html">Terms of Service</a></p>
+
+<footer>AutoTube uses YouTube API Services. See the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</footer>
+</body></html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AutoTube — Privacy Policy</title><style>body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#1d1d1f}h1{font-size:30px;margin-bottom:4px}h2{margin-top:28px;font-size:20px}a{color:#0b57d0}.muted{color:#666;font-size:14px}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:14px;font-size:14px;color:#666}code{background:#f2f2f2;padding:1px 5px;border-radius:4px}</style></head>
+<body>
+<h1>AutoTube Privacy Policy</h1>
+<p class="muted">Last updated: September 23, 2026</p>
+
+<p>AutoTube ("the app") is a private, single-user tool operated by the owner of the Curious Minute YouTube channel
+to create and publish videos on that same channel. This policy explains what data the app accesses and how it is handled.</p>
+
+<h2>1. Who can use the app</h2>
+<p>Only the channel owner. The app is not offered to the public, has no sign-up, and does not collect data from other people.</p>
+
+<h2>2. Google user data accessed</h2>
+<p>With the owner's explicit authorization through Google OAuth, the app accesses:</p>
+<ul>
+  <li><strong>YouTube upload access</strong> (<code>youtube.upload</code>): used only to upload videos the app has produced to the owner's channel and to set their title, description, tags and scheduled publish time.</li>
+  <li><strong>YouTube read-only access</strong> (<code>youtube.readonly</code>): used only to read the owner's own channel and video details, such as video IDs, privacy status and view, like and comment counts.</li>
+  <li><strong>YouTube Analytics read-only access</strong> (<code>yt-analytics.readonly</code>): used only to read aggregate statistics for the owner's own videos, such as views, average view duration and average view percentage.</li>
+</ul>
+<p>The app does not access the owner's Gmail, contacts, files or any other Google data, and it never accesses other users' data.</p>
+
+<h2>3. How the data is used</h2>
+<p>Channel statistics are used solely to decide which topics, formats and styles the app should produce next.
+The data is not used for advertising, not sold, not shared with or transferred to third parties, and not used to train AI models.</p>
+
+<h2>4. Storage and retention</h2>
+<ul>
+  <li>The OAuth credentials (client ID, client secret and refresh token) are stored as encrypted secrets in the owner's private GitHub repository and are never published.</li>
+  <li>A small log of the channel's own video IDs, titles and performance numbers is kept in the owner's private repository so the app can learn over time. The owner can delete it at any time.</li>
+  <li>No personal data about viewers is collected or stored.</li>
+</ul>
+
+<h2>5. Revoking access</h2>
+<p>The owner can revoke the app's access at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, and via the
+<a href="https://security.google.com/settings/security/permissions">Google security settings page</a>.
+Revoking access immediately stops all uploads and analytics reads.</p>
+
+<h2>6. Google API Services User Data Policy</h2>
+<p>AutoTube's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>7. YouTube API Services</h2>
+<p>AutoTube uses YouTube API Services. By using the app, the owner agrees to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See also the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>8. Contact</h2>
+<p>Questions about this policy: <a href="https://github.com/jstrick9">github.com/jstrick9</a>.</p>
+
+<footer><a href="https://jstrick9.github.io/">AutoTube home</a> · <a href="https://jstrick9.github.io/terms.html">Terms of Service</a></footer>
+</body></html>
