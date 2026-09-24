@@ -3,7 +3,7 @@
 <title>Curious Minute Publisher — Privacy Policy</title><style>body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#1d1d1f}h1{font-size:30px;margin-bottom:4px}h2{margin-top:28px;font-size:20px}a{color:#0b57d0}.muted{color:#666;font-size:14px}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:14px;font-size:14px;color:#666}code{background:#f2f2f2;padding:1px 5px;border-radius:4px}</style></head>
 <body>
 <h1>Curious Minute Publisher Privacy Policy</h1>
-<p class="muted">Last updated: September 23, 2026</p>
+<p class="muted">Last updated: September 24, 2026</p>
 
 <p>Curious Minute Publisher ("the app") is a private, single-user tool operated by the owner of the Curious Minute YouTube channel
 to create and publish videos on that same channel. This policy explains what data the app accesses and how it is handled.</p>
@@ -28,7 +28,10 @@ The data is not used for advertising, not sold, not shared with or transferred t
 <ul>
   <li>The OAuth credentials (client ID, client secret and refresh token) are stored as encrypted secrets in the owner's private GitHub repository and are never published.</li>
   <li>A small log of the channel's own video IDs, titles and performance numbers is kept in the owner's private repository so the app can learn over time. The owner can delete it at any time.</li>
+  <li>These statistics are refreshed from the YouTube API nightly, which also re-confirms that access is still authorized. If a video is deleted from YouTube, its stored statistics are removed on the next refresh, and any statistics not re-verified within 30 days are deleted.</li>
+  <li>If the owner revokes access (see section 5), the app can no longer read or refresh any data. Stored statistics can be deleted by removing the log file from the private repository.</li>
   <li>No personal data about viewers is collected or stored.</li>
+  <li>Cookies: this website and the app do not place, read or recognize cookies or similar technologies on your device, and do not allow third parties to serve content or advertisements.</li>
 </ul>
 
 <h2>5. Revoking access</h2>
